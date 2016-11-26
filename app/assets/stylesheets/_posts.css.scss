@@ -44,6 +44,8 @@
   }
 }
 
+
+
 .posts.edit, .posts.new {
   .card {
     .card-block {
@@ -62,7 +64,7 @@
         background-color: $light-gray;
       }
       textarea {
-        height: 100px;
+        height: 120px;
       }
       &:last-child {
         background-color: $light-gray;
