@@ -5,7 +5,7 @@ module Authors
     # GET /posts
     # GET /posts.json
     def index
-      @posts = current_author.posts.most_recent
+      @posts = current_author.posts
     end
 
     # GET /posts/1
